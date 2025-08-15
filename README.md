@@ -1,6 +1,3 @@
-Gerenciamento de Manutenção e controle de uso e de Estoque
-
-
 # Controle de Ferramentas
 
 Sistema para gerenciar o inventário, retirada, devolução e manutenção de ferramentas em ambiente industrial/oficina. Permite localizar ferramentas, registrar quem as utiliza, controlar estado de conservação e planejar manutenção preventiva, reduzindo perdas e tempo de inatividade.
