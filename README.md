@@ -1,25 +1,50 @@
-# Controle de Ferramentas
+# 📦 Controle de Ferramentas
 
-Sistema para gerenciar o inventário, retirada, devolução e manutenção de ferramentas em ambiente industrial/oficina. 
-Permite localizar ferramentas, registrar quem as utiliza, controlar estado de conservação e planejar manutenção preventiva, 
+Sistema para **gerenciar o inventário, retirada, devolução e manutenção de ferramentas** em ambiente industrial/oficina.  
+Permite localizar ferramentas, registrar quem as utiliza, controlar estado de conservação e planejar manutenção preventiva,  
 reduzindo perdas e tempo de inatividade.
 
+---
 
-## Objetivo
-Garantir que todas as ferramentas estejam identificadas, disponíveis e em bom estado, com rastreabilidade de uso por colaborador.
+## 🎯 Objetivo
+Garantir que todas as ferramentas estejam **identificadas, disponíveis e em bom estado**, com **rastreabilidade de uso por colaborador**.
 
-## Funcionalidades principais
-- Cadastro de ferramentas (Descrição, categoria, localização, estado).
-- Cadastro de funcionários (nome, função, matrícula).
-- Registro de retirada e devolução (data/hora, responsável, condiçãos).
-- Histórico de uso e manutenção preventiva.
-- Relatórios: ferramentas mais usadas e colaboradores com maior movimentação.
+---
 
-## Benefícios
-- Menos perdas e extravios.
-- Melhoria na disponibilidade de ferramentas.
-- Evidência de responsabilidade por uso.
-- Planejamento eficiente de manutenção e reposição.
+## ⚙️ Funcionalidades Principais
+1. **Cadastro de Ferramentas**  
+   - Descrição  
+   - Categoria  
+   - Localização  
+   - Estado de conservação  
 
-## Tecnologias usadas
-Backend: Python, Java e SQL (Para Banco de Dados); Front-End: HTML, CSS e JavaScript
+2. **Cadastro de Funcionários**  
+   - Nome  
+   - Função  
+   - Matrícula  
+
+3. **Movimentação de Ferramentas**  
+   - Registro de retirada e devolução (data/hora, responsável, condições)  
+   - Histórico de uso  
+
+4. **Manutenção Preventiva**  
+   - Agendamento de inspeções  
+   - Controle de substituições  
+
+5. **Relatórios**  
+   - Ferramentas mais utilizadas  
+   - Colaboradores com maior movimentação  
+
+---
+
+## ✅ Benefícios
+- 📉 **Redução de perdas e extravios**  
+- ⏱ **Maior disponibilidade de ferramentas**  
+- 🧾 **Evidência de responsabilidade pelo uso**  
+- 🔧 **Planejamento eficiente de manutenção e reposição**  
+
+---
+
+## 🛠 Tecnologias Utilizadas
+- **Back-End:** Python, Java, SQL (Banco de Dados)  
+- **Front-End:** HTML, CSS, JavaScript  
