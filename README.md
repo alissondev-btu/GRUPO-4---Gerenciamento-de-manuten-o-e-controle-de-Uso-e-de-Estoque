@@ -1,4 +1,4 @@
-# **Sistema de Gerenciamento de Manutenção Industrial**
+# **Sistema de Gerenciamento de Manutenção e Controle Uso**
 
 ## 📦 Descrição do Sistema
 Este sistema foi desenvolvido para **otimizar o gerenciamento e a manutenção de ferramentas e equipamentos** em ambientes industriais.  
