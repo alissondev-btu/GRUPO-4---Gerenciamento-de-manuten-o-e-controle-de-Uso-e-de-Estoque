@@ -1,105 +1,80 @@
-# **Gerenciamento de Manutenção e Controle de Estoque de Ferramentas**
+# **Sistema de Gerenciamento de Manutenção Industrial**
 
 ## 📦 Descrição do Sistema
-Sistema desenvolvido para **gerenciar inventário, retirada, devolução e manutenção de ferramentas** em ambientes industriais, oficinas e instituições.  
-Permite **localizar ferramentas, registrar responsáveis pelo uso, acompanhar o estado de conservação e planejar manutenções preventivas**,  
-reduzindo perdas e tempo de inatividade.
+Este sistema foi desenvolvido para **otimizar o gerenciamento e a manutenção de ferramentas e equipamentos** em ambientes industriais.  
+Ele permite **localizar ativos em tempo real, rastrear o uso por colaborador e planejar manutenções preventivas**, resultando na **redução de perdas, aumento da vida útil dos equipamentos e maior produtividade**.
 
 ---
 
-## 🚨 Problema a Ser Abordado
-Muitas indústrias, empresas e instituições de ensino enfrentam dificuldades no controle eficiente de seus estoques, o que impacta diretamente na produtividade, no orçamento e na tomada de decisões.  
-Entre os principais problemas estão:
+## 🚨 Desafio de Negócio
+Organizações industriais enfrentam desafios críticos na gestão de manutenção, impactando a eficiência operacional e a tomada de decisões. Os principais problemas incluem:
 
-- ❌ **Falta de visibilidade em tempo real** sobre a quantidade e localização dos produtos ou materiais.  
-- ❌ **Processos manuais e descentralizados**, que aumentam a chance de erros de registro e perda de informações.  
-- ❌ **Dificuldade em prever demandas e reposições**, resultando em excesso ou falta de itens essenciais.  
-- ❌ **Ausência de relatórios precisos** para análise de consumo, desperdício e movimentações.  
-- ❌ **Comunicação ineficiente entre setores**, dificultando o fluxo de entrada e saída de materiais.  
+- **Falta de visibilidade:** dificuldade em saber a localização e o estado exato dos equipamentos.  
+- **Processos manuais e descentralizados:** uso de planilhas e registros que geram erros e retrabalho.  
+- **Falta de previsibilidade:** dificuldade em planejar manutenções preventivas.  
+- **Relatórios imprecisos:** ausência de dados confiáveis para análise e tomada de decisão.
 
-Essas falhas acarretam **prejuízos financeiros, atrasos na produção e dificuldades no planejamento estratégico**.  
-Um sistema integrado e visualmente intuitivo busca solucionar esses problemas, oferecendo **controle centralizado, automação e relatórios inteligentes** para diferentes segmentos.
+A solução proposta busca **resolver esses problemas com automação, centralização de informações e relatórios inteligentes**.
 
 ---
 
 ## 👥 Público-Alvo
-O sistema é direcionado para organizações que necessitam de controle preciso e centralizado de estoque, abrangendo:
+O sistema é voltado para:  
 
-- 🏭 **Indústrias** — fábricas, montadoras e unidades de produção.  
-- 🏢 **Empresas de serviços e comércio** — lojas, distribuidoras, atacadistas e prestadoras de serviços.  
-- 🎓 **Instituições de ensino** — escolas, universidades e centros técnicos.  
-- 🏛 **Órgãos e instituições públicas** — almoxarifados e setores administrativos.  
-- 🤝 **Organizações sem fins lucrativos** — ONGs e fundações que administram estoques de doações e suprimentos.  
+- 🏭 **Indústrias e fábricas** que dependem de equipamentos críticos.  
+- ⚙️ **Empresas de manutenção industrial**.  
+- 🛠 **Setores internos de manutenção**, como engenharia e operação.  
 
-O público-alvo é composto por **gestores, administradores e operadores de estoque** que buscam **soluções práticas e tecnológicas** para reduzir perdas, otimizar processos e apoiar a tomada de decisão.
+Os usuários principais são **gestores, engenheiros e técnicos de manutenção**, que necessitam de **controle eficiente e rastreabilidade completa dos ativos**.
 
 ---
 
 ## 📚 Justificativa
-O gerenciamento eficiente de estoque é essencial para a **continuidade das operações** e para a **sustentabilidade financeira** de qualquer organização.  
-Apesar disso, muitas ainda utilizam **métodos manuais ou sistemas fragmentados**, gerando **retrabalho, erros de registro e falta de atualização das informações**.
+A gestão adequada de manutenção é essencial para **garantir a continuidade operacional, reduzir falhas e custos, e aumentar a vida útil dos equipamentos**.  
+Métodos manuais ou sistemas fragmentados ainda são comuns, gerando retrabalho e informações desatualizadas.  
 
-A solução proposta visa:  
-- ✅ Garantir **controle preciso de entradas e saídas**;  
-- ✅ Oferecer **alertas de reposição**;  
-- ✅ Permitir **relatórios estratégicos em tempo real**;  
-- ✅ Integrar com outros sistemas de gestão;  
-- ✅ Reduzir perdas, otimizar recursos e apoiar a tomada de decisões.  
+A solução oferece:  
+
+- ✅ **Controle preciso de equipamentos e tarefas de manutenção**  
+- ✅ **Alertas automáticos para inspeções e reparos**  
+- ✅ **Relatórios estratégicos em tempo real**  
+- ✅ **Integração com outros sistemas de gestão**  
 
 ---
 
 ## 🎯 Objetivo Geral
-Assegurar que todas as ferramentas e insumos estejam **identificados, disponíveis e em boas condições**, com **rastreabilidade de uso por colaborador**.
+Assegurar que todos os equipamentos e ferramentas estejam **identificados, disponíveis e em condições ideais de uso**, com **rastreabilidade completa do histórico de manutenção**.
 
 ---
 
 ## 📝 Objetivos Específicos
-1. **Desenvolver um protótipo funcional** da aplicação em até **X meses**, garantindo pelo menos **70% das funcionalidades definidas nos requisitos iniciais**.  
-2. **Implementar recursos de usabilidade e acessibilidade**, avaliando a experiência de pelo menos **10 usuários-teste**.  
-3. **Realizar testes de desempenho**, registrando métricas como **tempo de resposta menor que 2 segundos por operação crítica**.  
-4. **Produzir documentação técnica** (manual do usuário e manual do desenvolvedor) em **formato digital** até a entrega final do projeto.  
+1. **Desenvolver um protótipo funcional** com 70% das funcionalidades essenciais implementadas.  
+2. **Implementar recursos de usabilidade e acessibilidade**, validando a experiência com 10 usuários-teste.  
+3. **Garantir desempenho eficiente**, com tempo de resposta inferior a 2 segundos nas operações críticas.  
+4. **Produzir documentação digital completa**, incluindo manual do usuário e do desenvolvedor.
 
 ---
 
 ## ⚙️ Funcionalidades Principais
-1. **Cadastro de Ferramentas**  
-   - Descrição  
-   - Categoria  
-   - Localização  
-   - Estado de conservação  
-
-2. **Cadastro de Funcionários**  
-   - Nome  
-   - Função  
-   - Matrícula  
-
-3. **Movimentação de Ferramentas**  
-   - Registro de retirada e devolução (data, hora, responsável, condições)  
-   - Histórico completo de uso  
-
-4. **Manutenção Preventiva**  
-   - Agendamento de inspeções periódicas  
-   - Controle de reparos e substituições  
-
-5. **Relatórios Gerenciais**  
-   - Ferramentas mais utilizadas  
-   - Colaboradores com maior movimentação  
-   - Indicadores de manutenção  
+1. **Cadastro de Ativos:** identificação, categoria, localização e estado de conservação.  
+2. **Cadastro de Usuários:** nome, função e matrícula.  
+3. **Movimentação e Rastreamento:** registro de retirada e devolução, histórico de uso e responsáveis.  
+4. **Manutenção Preventiva:** agendamento de inspeções, controle de reparos e substituições.  
+5. **Relatórios Gerenciais:** análise de uso, indicadores de manutenção e desempenho dos ativos.
 
 ---
 
 ## ✅ Benefícios
-- 📉 **Redução de perdas e extravios**  
-- ⏱ **Maior disponibilidade e agilidade no uso das ferramentas**  
-- 🧾 **Rastreabilidade e evidência de responsabilidade**  
-- 🔧 **Planejamento eficiente de manutenção e reposição**  
+- 📉 **Redução de perdas e extravios de equipamentos**  
+- ⏱ **Maior disponibilidade e produtividade operacional**  
+- 🧾 **Rastreabilidade completa e responsabilidade pelo uso**  
+- 🔧 **Planejamento eficiente da manutenção preventiva e corretiva**
 
 ---
 
-## 🛠 Ferramentas e Tecnologias
+## 🛠 Tecnologias Utilizadas
 - **Linguagens de Programação:** Python, Java, JavaScript (Node.js)  
 - **Banco de Dados:** MySQL  
-- **Protótipos e Design:** Figma  
-- **Versionamento de Código:** GitHub  
-- **Gestão de Projetos:** Trello  
-- **Documentação:** Google Docs, Microsoft Word  
+- **Design e Protótipos:** Figma  
+- **Controle de Versão:** GitHub  
+- **Gerenciamento de Projetos:** Trello
